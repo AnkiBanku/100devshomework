@@ -1,0 +1,51 @@
+body {
+  background-color: lightskyblue;
+  color: white;
+  max-width: 960px;
+  /* Moves body and everything within body tag to center */
+  /* In future, we will do this using flexbox or grid */
+  margin-left: auto;
+  margin-right: auto;
+  border: thick solid limegreen;
+  padding: 35px;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+a {
+  color: limegreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+    border-right: 2px solid gray ;
+    padding-right: 5px;
+}
+
+nav > a:last-child {
+    border: none;
+    padding: initial;
+}
+
+footer > a {
+    border-right: 2px solid gray ;
+    padding-right: 5px;
+}
+
+footer > a:last-child {
+    border: none;
+    padding: initial;
+}
+
+img {
+    max-width: 15%;
+    float: right;
+    padding: 25px;
+}
