@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header , footer{
+    height: 60px;
+    border: solid black ;
+    clear: both;
+}
+body {
+    text-align: center;
+    /* Set the height to 100 view height to take up 100% of screen height */
+    height: 100vh;
+}
+section{
+    height: 65%;
+    border: 1px solid  black;
+    float: left;
+}
+.A, .D{
+    width: 20%;
+    border: 1px solid red;
+}
+.B{
+    width: 40%;
+}
+.C{
+    width: 20%;
+}

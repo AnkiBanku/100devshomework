@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    /* Set the height to 100 view height to take up 100% of screen height */
+    height: 100vh;
+}
+
+header , footer{
+    height: 20%;
+    border: solid gray;
+    clear: both;
+
+}
+
+section{
+    height: 20%;
+    border: solid gray;
+    float: right;
+}
+
+
+.A {
+    color: red;
+    width: 33.3333%;
+}
+
+.B {
+    color: blue;
+    width: 33.3333%;
+}
+
+.C {
+    color: magenta;
+    width: 33.3333%;
+}
+
+.D {
+    color: tomato;
+    width: 50%;
+}
+
+.E {
+    color: brown;
+    width: 50%;
+}
